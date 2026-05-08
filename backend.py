@@ -5,10 +5,6 @@ import numpy as np
 from tensorflow.keras.preprocessing import image
 import os
 from werkzeug.utils import secure_filename
-import matplotlib
-
-matplotlib.use('Agg')
-import matplotlib.pyplot as plt
 
 app = Flask(__name__)
 CORS(app)
